@@ -36,6 +36,7 @@
      memberLevel
      firstName
      lastName
+     email
      username
      pword
      address
@@ -53,7 +54,6 @@
     <panel_attributes>_ADDRESS DOCUMENT_
 --
 {
-     email
      streetAddress
      city
      state
@@ -133,14 +133,14 @@ m1=1.*</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
-      <y>408</y>
-      <w>40</w>
-      <h>72</h>
+      <x>424</x>
+      <y>520</y>
+      <w>136</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-m1=1.*</panel_attributes>
-    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+m1=1.1</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -154,5 +154,24 @@ m1=1.*</panel_attributes>
 m1=1.1
 m2=</panel_attributes>
     <additional_attributes>100.0;420.0;10.0;420.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>544</x>
+      <y>464</y>
+      <w>208</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>_BILLING ADDRESS DOCUMENT_
+--
+{
+     streetAddress
+     city
+     state
+     country
+     postalCode
+}</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
