@@ -1,0 +1,48 @@
+// TEAM LUNA Assignment 8.4 JSON Model
+
+{
+    "_ID": 421501001,
+    "_dataOpened": "5/9/2021",
+    "memberLevel": [
+        {
+            "_ID": 421501001,
+            "_featureId": [
+                {
+                    "feature": "basicAdvertising",
+                    "level": "1"
+                }
+            ]
+        }
+    ],
+    "firstName": "Curtis",
+    "lastName": "Lowe",
+    "userName": "FinePicker",
+    "pword": "apsodifjpaowieniuashefdi",
+    "email": "clowe@gmail.com",
+    "address": [
+        {
+            "streetAddress": "42 Wallaby Way",
+            "city": "Sydney",
+            "state": "New South Wales",
+            "country": "Australia",
+            "postCode": "2007"
+        }
+    ],
+    "paymentMethod":[
+        {
+            "fullName": "Curtis Lowe",
+            "cardNumber": "1234567890",
+            "cardCVC": "123",
+            "cardExp": "03/2077",
+            "address":[
+                {
+                    "streetAddress": "42 Wallaby Way",
+                    "city": "Sydney",
+                    "state": "New South Wales",
+                    "country": "Australia",
+                    "postCode": "2007"
+                }
+            ]
+        }
+    ]
+}
