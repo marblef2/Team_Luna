@@ -32,7 +32,7 @@
             "cardNumber": "1234567890",
             "cardCVC": "123",
             "cardExp": "03/2077",
-            "address":[
+            "billingAddress":[
                 {
                     "streetAddress": "42 Wallaby Way",
                     "city": "Sydney",
